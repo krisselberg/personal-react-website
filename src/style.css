@@ -53,7 +53,7 @@
   --fontSize-4: 1.728rem;
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
-  --fontSize-7: 2.986rem;
+  --fontSize-7: 2.2rem;
   --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
@@ -251,7 +251,7 @@ a:focus {
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-0);
 }
 
 .main-heading {
@@ -317,6 +317,147 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-home {
+  list-style: none;
+  margin-left: var(--spacing-0) !important;
+}
+
+.nav-home-text {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.nav-link-item:not(:last-child) {
+  padding-right: 1.5rem;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.about-flex-box {
+  align-items: center;
+  display: flex;
+}
+
+.about-flex-box > :first-child {
+  font-size: 1.6rem;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+.about-header-subtitle {
+  font-style: italic;
+}
+
+.about-header {
+  border-bottom: 1px solid black;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+
+.newsletter-header {
+  text-align: center;
+}
+
+.revue-form-field {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  /* add top and bottom margin */
+  margin: 10px 0;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.4);
+}
+
+.revue-form-field:focus {
+  outline: none !important;
+  border: 1px solid #228b22;
+}
+
+.btn-subscribe {
+  /* remove default behavior */
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+
+  /* usual styles */
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: #228b22;
+  box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-subscribe:hover {
+  background-color: #3e8e41;
+}
+
+.revue-form-footer {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.blog-post-showcase-image {
+  border-radius: 5px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.blog-post-showcase-image:hover {
+  opacity: 60%;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+.book-showcase-image {
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+}
+
+.book-showcase-image:hover {
+  opacity: 60%;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+.book-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-text {
+  color:red;
+}
+
+.flex-wrapper{
+  display: flex;
+  width: 100%;
 }
 
 /* Media queries */
