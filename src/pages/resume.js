@@ -11,9 +11,11 @@ const Resume = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <a
-        style={{display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'}}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
         href={resume}
         target="_blank"
         rel="noreferrer"
@@ -21,7 +23,11 @@ const Resume = ({ data, location }) => {
       >
         Download PDF
       </a>
-      <StaticImage src="../images/resume.jpg" alt="resume" />
+      <StaticImage
+        src="../images/resume.jpg"
+        alt="resume"
+        placeholder="tracedSVG"
+      />
     </Layout>
   )
 }
