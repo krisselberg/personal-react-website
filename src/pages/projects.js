@@ -78,14 +78,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: {
-          regex: "/Users/kselberg/Documents/personal-website/content/projects/"
-        }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
         fields {
