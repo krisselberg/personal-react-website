@@ -10,7 +10,9 @@ const Home = ({ data, location }) => {
   return (
     <Layout title={siteTitle} location={location}>
       <main>
-        <h2 className="newsletter-header">Subscribe to my weekly newsletter!</h2>
+        <h2 className="newsletter-header">
+          Subscribe to my weekly newsletter!
+        </h2>
         <div id="revue-embed">
           <form
             action="https://www.getrevue.co/profile/selberg_kris/add_subscriber"
@@ -85,20 +87,20 @@ const Home = ({ data, location }) => {
             >
               Now
             </a>{" "}
-            page. Last updated: September 13, 2022)
+            page. Last updated: September 15, 2022)
           </span>
         </div>
         <div className="about-body">
           <div className="about-flex-box">
             <p>🌴</p>
-            <p>
-              I'm living in Sarasota, Florida enjoying the weather and palm
-              trees.
-            </p>
+            <p>Living in Sarasota, Florida, enjoying the weather.</p>
           </div>
           <div className="about-flex-box">
             <p>💻</p>
-            <p>I'm interviewing for software-related positions at startups.</p>
+            <p>
+              Interviewing for software-related positions at startups (on a gap
+              year).
+            </p>
           </div>
           <div className="about-flex-box">
             <p>🎥</p>
