@@ -8,7 +8,6 @@ import Seo from "../components/seo"
 const Projects = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  console.log(posts)
 
   return (
     <Layout location={location} title={siteTitle}>
