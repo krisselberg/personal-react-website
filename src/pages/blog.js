@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Blog = ({ data, location }) => {
-  console.log(data)
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
   //   posts.filter(post => post.node.relativePath.startsWith("blog"))
