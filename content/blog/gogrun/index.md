@@ -1,4 +1,5 @@
 ---
+key: blog
 title: Why I Ran 4 Miles Every 4 Hours for 48 Hours
 showcaseImage: ./gogrun.jpeg
 date: "2021-02-15T22:12:03.284Z"

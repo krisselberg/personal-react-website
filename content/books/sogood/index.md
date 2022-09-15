@@ -1,4 +1,5 @@
 ---
+key: books
 title: So Good They Can't Ignore You - By Cal Newport
 showcaseImage: ./sogoodtheycantignoreyou.jpeg
 date: "2022-06-18T22:12:03.284Z"

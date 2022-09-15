@@ -1,4 +1,5 @@
 ---
+key: blog
 title: Doing This One Thing Makes My Day
 showcaseImage: ./1thing.jpeg
 date: "2021-12-13T22:12:03.284Z"

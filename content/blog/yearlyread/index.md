@@ -1,4 +1,5 @@
 ---
+key: blog
 title: Why I Stopped Setting Yearly Reading Goals
 showcaseImage: ./yearlyread.jpeg
 date: "2021-12-05T22:12:03.284Z"

@@ -1,4 +1,5 @@
 ---
+key: blog
 title: Why I Woke Up at 5 AM for 3 Months
 showcaseImage: ./5am.jpeg
 date: "2021-03-15T22:12:03.284Z"

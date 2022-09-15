@@ -1,4 +1,5 @@
 ---
+key: blog
 title: Are Creators Doing More Harm Than Good?
 showcaseImage: ./creatorharm.jpeg
 date: "2021-07-07T22:12:03.284Z"

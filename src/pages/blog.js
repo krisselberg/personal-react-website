@@ -80,11 +80,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: {
-          regex: "/Users/kselberg/Documents/personal-website/content/blog/"
-        }
-      }
+      filter: { frontmatter: { key: { eq: "blog" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {

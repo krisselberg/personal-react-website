@@ -102,11 +102,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: {
-          regex: "/Users/kselberg/Documents/personal-website/content/books/"
-        }
-      }
+      filter: {frontmatter: {key: {eq: "books"}}}
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       nodes {
