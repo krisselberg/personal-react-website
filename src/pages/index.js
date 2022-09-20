@@ -87,7 +87,7 @@ const Home = ({ data, location }) => {
             >
               Now
             </a>{" "}
-            page. Last updated: September 15, 2022)
+            page. Last updated: September 20, 2022)
           </span>
         </div>
         <div className="about-body">
