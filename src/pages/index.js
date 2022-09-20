@@ -103,20 +103,6 @@ const Home = ({ data, location }) => {
             </p>
           </div>
           <div className="about-flex-box">
-            <p>🎥</p>
-            <p>
-              Creating videos on my{" "}
-              <a
-                href="https://www.youtube.com/channel/UCVZ3ioNf1NLk0-S_RO8J6lg"
-                target="_blank"
-                rel="noreferrer"
-              >
-                YouTube channel
-              </a>
-              .
-            </p>
-          </div>
-          <div className="about-flex-box">
             <p>🥊</p>
             <p>Boxing four days a week.</p>
           </div>
