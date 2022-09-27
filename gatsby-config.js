@@ -1,11 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Kris Selberg`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `My personal website (about me, blog, book notes)`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     `gatsby-plugin-catch-links`,
