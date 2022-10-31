@@ -98,7 +98,15 @@ const Home = ({ data, location }) => {
           <div className="about-flex-box">
             <p>💻</p>
             <p>
-              Working for Princeton Vision & Learning Lab on computer vision related stuff.
+              Working for{" "}
+              <a
+                href="https://pvl.cs.princeton.edu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Princeton Vision & Learning Lab
+              </a>{" "}
+              on computer vision related stuff.
             </p>
           </div>
           <div className="about-flex-box">
