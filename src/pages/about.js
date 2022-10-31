@@ -14,7 +14,7 @@ const About = ({ data, location }) => {
           <h1>Me In 10 Minutes</h1>
           <span className="about-header-subtitle">
             (Too long? Check out <Link to="/">Me in 10 Seconds</Link>. Last
-            updated: September 13, 2022)
+            updated: October 31, 2022)
           </span>
         </div>
         <div className="about-body">
@@ -69,7 +69,7 @@ const About = ({ data, location }) => {
               >
                 TikTok
               </a>{" "}
-              to 165k+ followers, worked on{" "}
+              to 160k+ followers, worked on{" "}
               <a
                 href="https://www.theguardian.com/technology/2020/jan/13/what-are-deepfakes-and-how-can-you-spot-them"
                 target="_blank"
@@ -88,8 +88,17 @@ const About = ({ data, location }) => {
             </p>
           </div>
           <div className="about-flex-box">
+            <p>🇨🇴</p>
+            <p>
+              2022: Lived in Colombia for three months, computer vision
+              research, web dev, and boxing
+            </p>
+          </div>
+          <div className="about-flex-box">
             <p>❓</p>
-            <p>2022: TBD</p>
+            <p>
+              2023: TBD
+            </p>
           </div>
         </div>
       </main>
