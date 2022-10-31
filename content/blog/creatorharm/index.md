@@ -3,7 +3,7 @@ key: blog
 title: Are Creators Doing More Harm Than Good?
 showcaseImage: ./creatorharm.jpeg
 date: "2021-07-07T22:12:03.284Z"
-description: "Who would want to do this to themselves? Well, David Goggins has recruited tens of thousands of people, including myself, to do this challenge since it was publicized in his autobiography, Can’t Hurt Me."
+description: "The Social Dilemma documentary on Netflix has gotten me to second guess my decision to pursue content creation as a career. The documentary highlights how social media uses algorithms to make small behavior changes in humans that add up over time."
 ---
 
 The Social Dilemma documentary on Netflix has gotten me to second guess my decision to pursue content creation as a career. The documentary highlights how social media uses algorithms to make small behavior changes in humans that add up over time. As I was watching the film, I thought about how this applies to my work as a content creator on Tiktok and YouTube. Am I contributing towards the mass behavior change of humans across the world?
