@@ -87,7 +87,7 @@ const Home = ({ data, location }) => {
             >
               Now
             </a>{" "}
-            page. Last updated: September 20, 2022)
+            page. Last updated: October 31, 2022)
           </span>
         </div>
         <div className="about-body">
@@ -98,8 +98,7 @@ const Home = ({ data, location }) => {
           <div className="about-flex-box">
             <p>💻</p>
             <p>
-              Interviewing for software-related positions at startups (on a gap
-              year).
+              Working for Princeton Vision & Learning Lab on computer vision related stuff.
             </p>
           </div>
           <div className="about-flex-box">
