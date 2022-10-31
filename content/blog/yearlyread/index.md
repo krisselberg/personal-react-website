@@ -3,7 +3,7 @@ key: blog
 title: Why I Stopped Setting Yearly Reading Goals
 showcaseImage: ./yearlyread.jpeg
 date: "2021-12-05T22:12:03.284Z"
-description: "Who would want to do this to themselves? Well, David Goggins has recruited tens of thousands of people, including myself, to do this challenge since it was publicized in his autobiography, Can’t Hurt Me."
+description: "In 2020, I read 52 books, and I will not be doing the same in 2021. I started 2020 and 2021 with the same New Year's resolution of reading a book a week."
 ---
 
 In 2020, I read 52 books, and I will not be doing the same in 2021.
