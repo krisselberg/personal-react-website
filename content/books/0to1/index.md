@@ -7,7 +7,7 @@ description: "If you are interested in making an impact on the world through ent
 amazon: "https://amzn.to/3UK13DQ"
 rating: 7
 ---
-If you are interested in making an impact on the world through entrepreneurship, check this one out. Thiel and Master provide a very interesting mental framework to view the great question of 'what makes an impactful business?'
+If you are interested in making an impact on the world through entrepreneurship, check this one out. Thiel and Master provide a very interesting mental framework to view the question of 'what makes an impactful business?'
 
 Notes:
 

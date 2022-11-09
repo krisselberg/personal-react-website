@@ -14,7 +14,7 @@ const Books = ({ data, location }) => {
       <div className="about-header">
         <h1>Book Notes</h1>
         <span className="about-header-subtitle">
-          (Sorted from most recent books to least)
+          (Sorted from highest ratings to lowest ratings)
         </span>
       </div>
       <ol style={{ listStyle: `none` }}>
@@ -42,7 +42,7 @@ const Books = ({ data, location }) => {
                       />
                     </Link>
                     <div className="book-text">
-                      <h2>
+                      <h2 style={{paddingBottom: '10px'}}>
                         <Link to={post.fields.slug} itemProp="url">
                           <span itemProp="headline">{title}</span>
                         </Link>
@@ -60,22 +60,23 @@ const Books = ({ data, location }) => {
                         </div>
                         <div>
                           <small>
-                            How strongly I recommend the book to others:{" "}
+                            How much impact it had on my thinking:{" "}
                             <strong>{rating}</strong>/10
                           </small>
                         </div>
+                        <br></br>
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html:
+                              post.frontmatter.description || post.excerpt,
+                          }}
+                          itemProp="description"
+                        />
                       </div>
                     </div>
                   </div>
                 </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
+                <section></section>
               </article>
             </li>
           )
@@ -102,8 +103,8 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {key: {eq: "books"}}}
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { key: { eq: "books" } } }
+      sort: { fields: [frontmatter___rating], order: DESC }
     ) {
       nodes {
         excerpt
