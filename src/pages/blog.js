@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -15,7 +14,7 @@ const Blog = ({ data, location }) => {
       <div className="about-header">
         <h1>Blog</h1>
         <span className="about-header-subtitle">
-          (Sorted from most recent posts to least)
+          All Posts
         </span>
       </div>
       <ol style={{ listStyle: `none` }}>
@@ -29,15 +28,6 @@ const Blog = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
-                  <div className="blog-post-showcase-image">
-                    <Link to={post.fields.slug} itemProp="url">
-                      <GatsbyImage
-                        image={getImage(post.frontmatter.showcaseImage)}
-                        alt={post.fields.slug}
-                        className="blog-post-showcase-image"
-                      />
-                    </Link>
-                  </div>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
@@ -45,14 +35,6 @@ const Blog = ({ data, location }) => {
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
               </article>
             </li>
           )
