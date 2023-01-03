@@ -87,7 +87,7 @@ const Home = ({ data, location }) => {
             >
               Now
             </a>{" "}
-            page. Last updated: October 31, 2022)
+            page. Last updated: January 3, 2023)
           </span>
         </div>
         <div className="about-body">
@@ -100,18 +100,18 @@ const Home = ({ data, location }) => {
             <p>
               Working for{" "}
               <a
-                href="https://pvl.cs.princeton.edu/"
+                href="https://www.flavrs.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Princeton Vision & Learning Lab
+                Flavrs
               </a>{" "}
-              on computer vision related stuff.
+              on backend engineering.
             </p>
           </div>
           <div className="about-flex-box">
             <p>🥊</p>
-            <p>Boxing four days a week.</p>
+            <p>Boxing four days a week and training for a marathon.</p>
           </div>
         </div>
       </main>

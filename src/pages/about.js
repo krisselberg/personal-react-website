@@ -90,8 +90,7 @@ const About = ({ data, location }) => {
           <div className="about-flex-box">
             <p>🇨🇴</p>
             <p>
-              2022: Lived in Colombia for three months, computer vision
-              research, web dev, and boxing
+              2022: Lived in Colombia for three months, Flavrs, web dev, and boxing
             </p>
           </div>
           <div className="about-flex-box">
